@@ -1,0 +1,237 @@
+body{
+max-width: 1440px ;
+display: flex ;
+margin: 0 ;
+padding: 5% ;
+background-color: hsl(210, 46%, 95%) ;
+justify-content: space-between ;
+font-size: 1em ;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#fbr{
+display: flex ;
+width: 25% ;
+height: available ;
+justify-content: space-between ;
+}
+#fbl{
+display: flex ;
+width: 75% ;
+height: available ;
+flex-direction: column ;
+justify-content: space-between ;
+}
+#fbt{
+width: available ;
+display: flex ;
+height: 50% ;
+}
+#fbb{
+width: available ;
+display: flex ;
+height: 50% ;
+}
+#fbm{
+width: available ;
+display: flex ;
+height: 100% ;
+}
+
+#daniel{
+background-color: hsl(263, 55%, 52%) ;
+background-image: url("images/bg-pattern-quotation.svg");
+background-repeat: no-repeat ;
+background-position: 80% 0% ;
+color: hsl(210, 46%, 95%) ;
+width: 66% ;
+}
+#jonathan{
+background-color: hsl(217, 19%, 35%) ;
+color: hsl(210, 46%, 95%) ;
+width: 33% ;
+}
+#jeanette{
+background-color: white ;
+color: hsl(217, 19%, 35%) ;
+width: 33% ;
+}
+#patrick{
+background-color: hsl(219, 29%, 14%) ;
+color: hsl(210, 46%, 95%) ;
+width: 66% ;
+}
+#kira{
+background-color: white ;
+color: hsl(217, 19%, 35%) ;
+width: 100% ;
+}
+
+#photo-daniel{
+background-image: url("images/image-daniel.jpg") ;
+}
+#photo-jonathan{
+background-image: url("images/image-jonathan.jpg") ;
+}
+#photo-jeanette{
+background-image: url("images/image-jeanette.jpg") ;
+}
+#photo-patrick{
+background-image: url("images/image-patrick.jpg") ;
+}
+#photo-kira{
+background-image: url("images/image-kira.jpg") ;
+}
+
+.card{
+min-width: 250px ;
+height: available ;
+border-radius: 10px ;
+display: flex ;
+flex-direction: column ;
+justify-content: flex-start ;
+margin: 10px ;
+box-sizing: content-box ;
+background-color : blue ;
+}
+
+.header{
+height: 60px ;
+width: 100% ;
+display: flex ;
+align-items: center ;
+padding: 25px 25px 0 25px ;
+}
+
+.photo{
+width: 56px ;
+height: 56px ;
+border-radius: 50% ;
+background-color: black ;
+background-size: 100% 100% ;
+}
+
+.infos{
+height: 56px ;
+min_width: 144px ;
+display: flex ;
+flex-direction: column ;
+justify-content : center ;
+align_items : flex-start ;
+padding-left: 10px ;
+}
+
+.name{
+inline-size: available ; 
+height: 30px ;
+padding-top: 10% ;
+text-align: left ;
+font-weight: bold;
+font-size: 1.1em ;
+}
+
+.degree{
+height: 26px ;
+padding-bottom: 10% ;
+text-align: left ;
+font-weight: lighter ;
+font-size: 0.9em ;
+opacity: 0.5;
+}
+
+.titre{
+width: available ;
+height: 1fr ;
+font-size: 1.3em ;
+font-weight: bold ;
+box-sizing: content-box ;
+margin: 10px 25px 20px 25px ;
+}
+
+.bio{
+width: available ;
+height: 1fr ;
+box-sizing: content-box ;
+margin: 0 25px 30px 25px ;
+font-size: 0.9em ;
+font-weight: lighter ;
+line-height: 1.5em;
+opacity: 0.7;
+}
+
+p{
+margin: 0 ;
+}
+
+@media screen and (max-width: 1200px){
+body{
+width: 100% ;
+height: 100% ;
+min-width: 375px ;
+margin: 0 ;
+padding: 5px ;
+flex-direction: column ;
+justify-content: center ;
+align-items: center ;
+flex-direction: column ;
+}
+#fbr{
+width: 100% ;
+height: 100% ;
+flex-direction: column ;
+margin: 0 ;
+padding: 0 ;
+}
+#fbm{
+width: 100% ;
+height: 100% ;
+flex-direction: column ;
+align-items: center ;
+margin: 0 ;
+padding: 0 ;
+}
+#fbl{
+width: 100% ;
+height: 100% ;
+flex-direction: column ;
+align-items: center ;
+margin: 0 ;
+padding: 0 ;
+}
+#fbt{
+width: 100% ;
+height: 100% ;
+flex-direction: column ;
+align-items: center ;
+margin: 0 ;
+padding: 0 ;
+}
+#fbb{
+width: 100% ;
+height: 100% ;
+flex-direction: column ;
+align-items: center ;
+margin: 0 ;
+padding: 0 ;
+}
+.card{
+max-width: 315px ;
+width: 100% ;
+height: 100% ;
+margin: 10px ;
+}
+
+#daniel{
+width: 100% ;
+}
+#jonathan{
+width: 100% ;
+}
+#jeanette{
+width: 100% ;
+}
+#patrick{
+width: 100% ;
+}
+#kira{
+width: 100% ;
+}
